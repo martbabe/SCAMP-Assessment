@@ -1,0 +1,14 @@
+Def Fibo(n):
+ If n<=1:
+  return n
+ else:
+  return(Fibo(n-1) + Fibo(n-2))
+
+#take input from user
+ nterms=int(input("Enter the terms"))
+ If nterms<=0:
+  print("Please enter a positive integer")
+ else:
+  print("Fibonacci sequence:")
+   for i in range (nterms):
+    print(Fibo(i))
